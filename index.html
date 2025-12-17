@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    
+    <title>Delicious Food Hub </title>
+    <link rel="icon" type ="image/png" href="./food.png">
+    <style>
+        header{
+            background-color: orange;
+            color: rgb(220, 42, 196);
+            padding: 20px;
+            text-align:left;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        footer{
+            background-color: orange;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            margin-top: 20px;
+
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+            padding: 0px;
+            background-color: #a2e3c1;
+            background-image: url("./images/food.png");
+            background-size: cover;
+            background-position: center;
+        }
+        menu-section{
+            padding: 20px;
+            text-align: center;
+        }
+        <!-- .banner{
+            width:100%;
+            height: 300px;
+            
+        
+        } -->
+        .menu-title{
+            text-align: center;
+            font-size: 40px;
+            margin-bottom : 20px;
+            color: rgb(45, 31, 31);        }
+
+        .food-items{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+        }
+        .food-card{
+            background: white;
+            border-radius: 10px;
+            padding: 15px;
+            box-shodow: 0 0 10px rgba(0,0,0,0.1);
+            margin:10px;
+            text-aling: center;
+            
+            
+        }.food-card img{
+            width: 100%;
+            height: 150px;
+            border-radius: 10px;
+        }
+        
+        .food-card h3{
+            color: #861995;
+            margin: 10px 0 5px;
+        }
+        .food-card p{
+            font-size: 20px;
+            font-weight: bold;
+            color: #861995;
+        }
+        .marquee-box {
+    background-color: #dd91ce;
+    padding: 10px;
+    margin: 0;
+    overflow: hidden;
+    border-bottom: 3px solid black;
+}
+
+.marquee-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.marquee-text:hover {
+    font-size: 26px;
+    color: #fff8e1;
+    cursor:all-scroll;
+}
+.food-card img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+
+    </style>
+</head>
+<body >
+    <!--header-->
+    <header>Delicious Food Hub</header>  
+    <div class="banner">
+        <div class="marquee-box">
+    <marquee behavior="scroll" direction="left" class="marquee-text">
+        🍕 Welcome to Delicious Food Hub! 🎉 Enjoy the tastiest burgers, pizzas & more! 🍔
+    </marquee>
+
+    </div>
+    <div class ="menu-section">
+        <!--Menu section-->
+        <div class="menu-title"> Our Polpular Dishes</div>
+        <div class="food-items">
+
+            <div class="food-card">
+                <img src="burger1.jpg" alt="Burger ">
+                <h3>Cheese Burger</h3>
+                <p>$2</p>
+            </div>
+        
+            <div class="food-card">
+                <img src="burger2.jpg" alt="pizza ">
+                <h3>Cheese pizza</h3>
+                <p>$4</p>
+            </div>
+            <div class="food-card">
+                <img src="list b.jpg" alt="Burger ">
+                <h3>list of pizzas</h3>
+                <p>$102</p>
+            </div>
+        </div>
+        <div class="food-items">
+
+            <div class="food-card">
+                <img src="burger3.jpg" alt="Burger ">
+                <h3>Cheese Burger</h3>
+                <p>$2</p>
+            </div>
+        
+            <div class="food-card">
+                <img src="pizza1.jpg" alt="pizza ">
+                <h3>Cheese pizza</h3>
+                <p>$4</p>
+            </div>
+            <div class="food-card">
+                <img src="list p.jpg" alt="Burger ">
+                <h3>list of pizzas</h3>
+                <p>$102</p>
+            </div>
+        </div>
+        
+        <footer> @2025 Delicious Food Hub || All Rights Reserved</footer>
+</body>
+
+</html>
